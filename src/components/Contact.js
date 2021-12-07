@@ -6,7 +6,7 @@ function Contact() {
     return (
         <Container>
             <Avatar />
-            <p>Gaurav Konde</p>
+            <p>Big sam</p>
         </Container>
     )
 }
@@ -20,7 +20,7 @@ const Container = styled.div`
     cursor: pointer;
     border-radius: 10px;
     margin: 4px 0px;
-    
+
     p {
         margin-left: 6%;
     }

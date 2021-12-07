@@ -9,7 +9,7 @@ function AddPost() {
             <Post>
                 <AddInput>
                     <Avatar />
-                    <input placeholder="Whats on your mind, Gaurav?" type="text" />
+                    <input placeholder="Whats on your mind, Sam?" type="text" />
                 </AddInput>
                 <Options>
                     <Icon>

@@ -70,9 +70,9 @@ const List = styled.div`
     @media(max-width: 580px) {
         width: 21vw;
         height: 20vh;
-        
+
         :nth-child(n+5) {
-            display: none;  
+            display: none;
         }
     }
 `

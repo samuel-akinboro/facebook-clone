@@ -7,7 +7,7 @@ const data = [
     {
         'id':1,
         'img':'https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4',
-        'title': 'Gaurav Konde'
+        'title': 'Big Sam'
     },
     {
         'id':2,
@@ -76,7 +76,7 @@ function LeftContainer() {
                     <p>See More</p>
                 </List>
 
-                
+
             </SubList>
         </Container>
     )
@@ -103,23 +103,23 @@ const Container = styled.div`
             display: flex;
             width: 8px;
           }
-          
-        
+
+
         ::-webkit-scrollbar-track {
             background: white;
             border-radius: 10px;
         }
-        
+
         ::-webkit-scrollbar-thumb {
             background: rgb(136, 136, 136);
             border-radius: 10px;
           }
-        
+
         ::-webkit-scrollbar-thumb:hover {
             background: rgb(126, 126, 126);
             border-radius: 10px;
           }
-        
+
         ::-webkit-scrollbar-thumb:active {
             background: rgb(126, 126, 126);
             border-radius: 10px;

@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import SearchIcon from '@material-ui/icons/Search';
-import { 
-    Home, OndemandVideo, Store, SupervisedUserCircleOutlined, 
+import {
+    Home, OndemandVideo, Store, SupervisedUserCircleOutlined,
     ViewQuiltOutlined, Apps, Telegram, Notifications, ArrowDropDown,
-    Menu 
+    Menu
     } from '@material-ui/icons'
 import { Avatar, makeStyles } from '@material-ui/core';
 
@@ -23,8 +23,8 @@ function Navbar() {
         },
     }));
       
-    const classes = useStyles(); 
-      
+    const classes = useStyles();
+
     return (
         <Header>
             <LeftButton>
@@ -34,7 +34,7 @@ function Navbar() {
                     <input placeholder="Search Facebook" type="text" />
                 </SearchArea>
             </LeftButton>
-            
+
             <MiddleButton>
                 <Icon className={active === "Home"?("active"):('default')}>
                     <Home/>
@@ -55,19 +55,19 @@ function Navbar() {
                     <Icon className="default">
                         <Menu />
                     </Icon>
-                </MenuIcon> 
-            </MiddleButton> 
+                </MenuIcon>
+            </MiddleButton>
 
             <RightButton>
                 <AccountDetail>
                     <Avatar src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" className={classes.medium}/>
-                    <p>Gaurav</p>
+                    <p>Sam</p>
                 </AccountDetail>
                 <OtherIcons>
                     <Apps />
-                    <Telegram /> 
+                    <Telegram />
                     <Notifications />
-                    <ArrowDropDown /> 
+                    <ArrowDropDown />
                 </OtherIcons>
             </RightButton>
         </Header>
@@ -160,7 +160,7 @@ const MiddleButton = styled.div`
 
     @media(max-width: 1200px) {
         .MuiSvgIcon-root {
-            padding: 10px 2vw; 
+            padding: 10px 2vw;
             margin: 4px;
             font-size: 26px;
 
@@ -209,7 +209,7 @@ const AccountDetail = styled.div`
     padding: 4px 6px;
     border-radius: 20px;
     cursor: pointer;
-    
+
     .MuiAvatar-root {
     }
 
@@ -220,7 +220,7 @@ const AccountDetail = styled.div`
     }
 
     :hover {
-        background-color: #68686880; 
+        background-color: #68686880;
     }
 
     @media(max-width: 1200px) {
@@ -238,7 +238,7 @@ const OtherIcons = styled.div`
         font-size: 22px;
         padding: 10px;
         margin: 4px;
-        background-color: #68686880; 
+        background-color: #68686880;
         border-radius: 40px;
     }
 

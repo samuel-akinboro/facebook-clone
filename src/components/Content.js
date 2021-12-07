@@ -10,7 +10,7 @@ function Content() {
                 <Profile>
                     <Avatar />
                     <Title>
-                        <h4>Gaurav Konde</h4>
+                        <h4>Big Sam</h4>
                         <p>3d </p>
                     </Title>
                 </Profile>
@@ -77,7 +77,7 @@ const Header = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
     .MuiSvgIcon-root {
         padding: 10px;
         cursor: pointer;
@@ -138,7 +138,7 @@ const EmojiCount = styled.div`
     margin: 0px 0px;
     border-bottom: 2px solid #343637;
 `
-    
+
 const EmojiList = styled.div`
     display: flex;
     align-items: center;
